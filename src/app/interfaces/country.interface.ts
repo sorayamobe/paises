@@ -1,0 +1,37 @@
+export interface Country {
+    altSpellings: string[];
+    area: number;
+    borders: string[];
+    capital: string;
+    capitalInfo: any;
+    car: any;
+    cca2: string;
+    cca3: string;
+    ccn3: string;
+    cioc: string;
+    coatOfArms: any;
+    continents: string[];
+    currencies: any;
+    demonyms: any;
+    fifa: string;
+    flag: string;
+    flags: any;
+    gini: number;
+    idd: any;
+    independent: boolean;
+    landlocked: boolean;
+    languages: any;
+    latlng: number[];
+    maps: any;
+    name: any;
+    population: number;
+    postalCode: any;
+    region: string;
+    startOfWeek: string;
+    status: string;
+    subregion: string;
+    timezones: string[];
+    tld: string[];
+    translations: any;
+    unMember: boolean;
+}
